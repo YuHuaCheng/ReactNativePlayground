@@ -4,7 +4,6 @@ import { createStore, applyMiddleware } from 'redux'
 import reducers from './reducers'
 import firebase from 'firebase'
 import ReduxThunk from 'redux-thunk';
-import LoginForm from './components/LoginForm';
 import Router from './Router';
 
 
